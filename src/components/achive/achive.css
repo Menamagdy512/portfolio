@@ -9,6 +9,7 @@
     width: 700px;
     position: absolute;
     right: 50px;
+    animation: slideIn 7s ease-out;
 }
 .edu{
     display: flex;
@@ -79,3 +80,21 @@
 h2 span{
     margin-left: 60px;
 }
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%); /* خارج الشاشة من اليسار */
+        opacity: 0; /* غير مرئية */
+      }
+      25% {
+        transform: translateX(0); /* داخل الشاشة */
+        opacity: 1; /* مرئية */
+      }
+      75% {
+        transform: translateX(0); /* تظل في مكانها */
+        opacity: 1; /* مرئية */
+      }
+      100% {
+        transform: translateX(0); /* تخرج من الشاشة إلى اليمين */
+        opacity: 1; 
+      }
+    }
