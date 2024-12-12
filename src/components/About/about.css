@@ -10,6 +10,8 @@
     width: 50%;
     position: relative;
     z-index: 1;
+    animation: slideInOut 7s ease-out;
+  
 }
 .about{
     display: flex;
@@ -69,14 +71,38 @@ text-transform: uppercase;
     left:10px;
     top: 125rem;
     z-index: 2;
+    animation: slideInOut 7s ease-out;
+
 }
 .bor img{
     position: absolute;
     left: 500px;
+    bottom: -55rem;
+    animation: slideInOut 7s ease-out;
+
 }
 .bak{
     position: absolute;
     left: 30px;
     top:105rem ;
     z-index: 2;
+    animation: slideInOut 7s ease-out;
 }
+@keyframes slideInOut {
+    0% {
+        transform: translateX(-100%); /* خارج الشاشة من اليسار */
+        opacity: 0; /* غير مرئية */
+      }
+      25% {
+        transform: translateX(0); /* داخل الشاشة */
+        opacity: 1; /* مرئية */
+      }
+      75% {
+        transform: translateX(0); /* تظل في مكانها */
+        opacity: 1; /* مرئية */
+      }
+      100% {
+        transform: translateX(0); /* تخرج من الشاشة إلى اليمين */
+        opacity: 1; 
+      }
+    }

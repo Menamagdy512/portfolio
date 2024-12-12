@@ -8,6 +8,7 @@ import background from '../../assets/images/Background.png'
 export default function About() {
     return (
     <div className='box'>
+        <div className='box1'>
         <div className='bigimg'>
             <img src= {aboutimg} alt="" />
         </div>
@@ -19,6 +20,7 @@ export default function About() {
         </div>
         <div className="bak">
             <img src={background} alt="" />
+        </div>
         </div>
         <div className="about">
                 <h4>ABOUT ME</h4>
