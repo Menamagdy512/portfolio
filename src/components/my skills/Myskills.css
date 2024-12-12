@@ -1,0 +1,26 @@
+.skills{
+    background-color: #EFF6FA;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.skills #ffff{
+    margin-top: 100px;
+}
+.skills h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    color: #153448;
+    margin-left: 50px;
+}
+
+.skills p{
+    width: 536px;
+    height: 84px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 50px;
+}

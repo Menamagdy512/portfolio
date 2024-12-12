@@ -1,0 +1,33 @@
+.containar nav{
+    background-color: #153448;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+  }
+  .containar nav ul{
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  }
+  .containar nav ul li{
+    list-style: none;
+    margin: 20px;
+  }
+  .containar nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  .containar nav ul li a:active{
+    color: gray;
+  }
+  .containar nav ul button{
+  background-color: #153448;
+  border: 1px solid #948979;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 155px;
+  height: 39px;
+  margin-top: 10px;
+  margin-left: 100px;
+  }

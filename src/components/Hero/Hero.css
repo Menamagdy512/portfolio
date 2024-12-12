@@ -1,0 +1,96 @@
+.containar .Homepage{
+    background-color:#3C5B6F;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+
+
+  }
+  .content{
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .Homepage .content h3{
+    color: #DFD0B8;
+    letter-spacing:5px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    text-indent: -250px;
+    text-transform: uppercase;
+  }
+  .Homepage .content h1{
+    margin: 40px 0;
+    font-size: 110px;
+    font-weight: lighter;
+  }
+  .Homepage .content p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    text-indent: -130px;
+  }
+  .Homepage .content button{
+    background-color: #153448;
+    color: white;
+    width: 165px;
+    height: 53px;
+    margin-top: 100px;
+    border: 1px solid #153448 ;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateX(-170px);
+  }
+  .Homepage{
+    display: flex;
+  }
+  .Homeimg{
+    overflow: hidden;
+  }
+  .Homeimg img{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 120px;
+  }
+  .socialimg div {
+    margin: 50px 0 0 10px;
+    border: 2px solid #CCD3D933;  
+    width: 40px;
+    height: 25px;
+    padding-top: 15px;
+    text-align: center;
+  }
+  .socialimg{
+    position: absolute;
+    right: 60px;
+    top: 170px;
+  }
+  .socialimg div a{
+    color: white;
+  }
+  .decor1{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+  }
+  .decor2{
+    position: absolute;
+    right: 70px;
+    top: 100px;
+  }
+  .decor3{
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+  }
+  .decor4{
+    position: absolute;
+    top: 150px;
+  }

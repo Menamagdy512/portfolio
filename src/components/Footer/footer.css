@@ -1,0 +1,44 @@
+.footerss{
+    width: 100%;
+    background-color: #E2ECF6;
+  
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+
+}
+.hhh h3{
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+}
+.middle{
+    margin-top: 100px;
+}
+.middle h4{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+.middle input{
+    width: 300px;
+    height: 56px;
+}
+.follow{
+    margin-top: 100px;
+}
+.follow p{
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+#qqq{
+    text-align: center;
+    margin-top: 100px;
+}

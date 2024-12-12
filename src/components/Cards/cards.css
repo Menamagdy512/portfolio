@@ -1,0 +1,36 @@
+.cards{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: #E2ECF6;
+    justify-content: center;
+    align-items: center;
+    }
+    .cards .topbook,
+    .cards .bottombook{
+    width: 300px;
+        height: 380px;
+        border: 10px solid #FFFFFF;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        box-shadow: 4px 2px 2px #02185D33;
+        margin-left: 40px;
+        margin-top: 100px; 
+         
+    }
+    .bottombook{
+        transform: translateY(100px);
+    }
+    .topbook h3,
+    .bottombook h3{
+        text-align: center;
+        margin-top: 50px;
+        width: 300px;
+        color: #4D4D5C;
+        font-weight:lighter ;
+    }
+    .topbook img,
+    .bottombook img{
+    padding-left:100px;
+    padding-top: 70px;
+    }

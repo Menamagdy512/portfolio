@@ -1,0 +1,82 @@
+.box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #EFF6FA;
+    
+}
+.bigimg{
+    margin: 100px 0 0 100px;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.about h4{
+    color: #948979;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 7px;
+}
+.about h1{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2E2E37;
+}
+.about p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    width: 100%;
+    color: #4D4D5C;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-top: 30px;
+    padding-right: 0;
+    width: 90%;
+}
+.about .sign span{
+margin-top: 100px;
+color: #2E2E37;
+font-weight: 400;
+font-size: 21px;
+line-height: 25px;
+width: 180px;
+word-spacing: 5px;
+text-transform: uppercase;
+}
+.about .sign p{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 100px;
+    transform: translateX(300px);
+}
+.im img{
+    position: absolute;
+    left:10px;
+    top: 125rem;
+    z-index: 2;
+}
+.bor img{
+    position: absolute;
+    left: 500px;
+}
+.bak{
+    position: absolute;
+    left: 30px;
+    top:105rem ;
+    z-index: 2;
+}
