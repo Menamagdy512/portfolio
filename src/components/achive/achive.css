@@ -24,6 +24,8 @@
     letter-spacing: 7px;
     text-transform: uppercase;
     margin-left: 60px;
+    font-family:'Roboto',Jost;
+
 }
 .edu h1{
         font-weight: 400;
@@ -32,6 +34,7 @@
         padding: 20px 0;
         color: #2E2E37;
         margin-left: 60px;
+        font-family:'Roboto',Jost;
 
 }
 .edu p{
@@ -62,6 +65,8 @@
     font-weight: 34px;
     color: #2E2E37;
     transform: translateX(-100px);
+    font-family:'Roboto',Jost;
+
 }
 .myach h5{
     color: #4D4D5C;

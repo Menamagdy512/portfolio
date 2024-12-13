@@ -5,7 +5,7 @@ import Vector from "../../assets/images/Vector.png";
 
 export default function Exprience() {
   return (
-    <div className="work">
+    <div className="work" id="Works">
       <div className="image">
         <img src={image} alt="" />
         </div>

@@ -5,12 +5,12 @@ import { faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 export default function contactme() {
 return (
-    <div className='Contact'>
+    <div className='Contact'id='Contact'>
         <div className='head'>
             <h4>Contact Me</h4>
             <h1>Let’s Start A New Project</h1>
         </div>
-    <div className="contantt">
+    <div className="contantt" >
         <div className='leftside'>
             <div className='location'>
             
@@ -28,7 +28,7 @@ return (
         </div>
         <div className="rightside">
             <form action="post">
-                <div cla>
+                <div>
                     <input type="text" placeholder='Name' />
                     <input type="text" placeholder='Email' />
                 </div>

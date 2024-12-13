@@ -32,6 +32,7 @@
     letter-spacing: 7px;
     text-transform: uppercase;
     margin-left: 50px;
+    font-family:'Roboto',Jost;
 }
 .exprience h1{
         font-weight: 400;
@@ -40,7 +41,7 @@
         margin-left: 60px;
         padding: 20px 0;
         color: #2E2E37;
-
+        font-family:'Roboto',Jost;
 }
 .exprience p{
     font-weight: 400;
@@ -48,6 +49,8 @@
     line-height: 30px;
     color: #4D4D5C;
     margin-left: 50px;
+    font-family:'Roboto',Open Sans;
+
 }
 .myex{
     margin-top: 50px;
@@ -68,6 +71,7 @@
     font-size: 30px;
     font-weight: 34px;
     color: #2E2E37;
+    font-family:'Roboto',Jost;
 }
 .myex h2 span{
     margin-left: 100px;

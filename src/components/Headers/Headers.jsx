@@ -7,10 +7,10 @@ export default function Headers() {
        <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Works</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Works">Works</a></li>
+          <li><a href="#Service">Service</a></li>
+          <li><a href="#Contact">Contact</a></li>
           <button>DOWNLOAD CV</button>
         </ul>
         </nav>

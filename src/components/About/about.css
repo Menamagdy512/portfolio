@@ -26,12 +26,14 @@
     font-size: 18px;
     line-height: 27px;
     letter-spacing: 7px;
+    font-family:'Roboto',Jost;
 }
 .about h1{
     font-weight: 400;
     font-size: 60px;
     line-height: 72px;
     color: #2E2E37;
+    font-family: 'Roboto', Jost;
 }
 .about p{
     font-weight: 400;
@@ -39,6 +41,7 @@
     line-height: 30px;
     width: 100%;
     color: #4D4D5C;
+    font-family:'Roboto',Open Sans;
 }
 .info{
     display: flex;

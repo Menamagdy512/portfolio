@@ -23,17 +23,20 @@
     line-height: 27px;
     text-indent: -250px;
     text-transform: uppercase;
+    font-family: 'Roboto',Kaisei Decol;
   }
   .Homepage .content h1{
     margin: 40px 0;
     font-size: 110px;
     font-weight: lighter;
+    font-family: 'Roboto',Jost;
   }
   .Homepage .content p{
     font-weight: 400;
     font-size: 24px;
     line-height: 48px;
     text-indent: -130px;
+    font-family: 'Roboto',Jost;
   }
   .Homepage .content button{
     background-color: #153448;

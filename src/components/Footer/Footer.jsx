@@ -3,6 +3,8 @@ import item from "../../assets/images/item.png";
 import item1 from "../../assets/images/item1.png";
 import Link from "../../assets/images/Link.png";
 import Link1 from "../../assets/images/Link1.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 import "./footer.css";
 export default function Footer() {
   return (
@@ -15,6 +17,7 @@ export default function Footer() {
           <div className="middle">
             <h4>Newsletter</h4>
             <input type="email" placeholder="Submit your email" />
+            <FontAwesomeIcon icon={faEnvelope} id="ooo" />
           </div>
           <div className="follow">
             <p>Follow Me</p>
@@ -24,7 +27,7 @@ export default function Footer() {
             <img src={item1} alt="" />
           </div>
         </div>
-          <p id="qqq">All rights reserved Code craft © 2024</p>
+          <p id="qqq">All rights reserved <span>Code craft</span> © 2024</p>
       </div>
     </div>
   );

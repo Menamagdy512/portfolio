@@ -1,7 +1,7 @@
 .footerss{
     width: 100%;
     background-color: #E2ECF6;
-  
+    position: relative;
 }
 .main{
     display: flex;
@@ -10,10 +10,13 @@
 
 }
 .hhh h3{
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: 400;
     font-size: 48px;
     line-height: 70px;
+    font-family:'Roboto',Jost;
+
+
 }
 .middle{
     margin-top: 100px;
@@ -23,22 +26,55 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
+    font-family:'Roboto',Jost;
+
 }
 .middle input{
     width: 300px;
     height: 56px;
+    padding-left: 10px;
+    border: none;
+    font-size: medium;
+    
+}
+.middle img{
+    position: absolute;
 }
 .follow{
     margin-top: 100px;
+}
+.follow img{
+    margin: 5px;
+    
 }
 .follow p{
     margin-bottom: 30px;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
+    font-family:'Roboto',Jost;
 }
 
 #qqq{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 90px;
+    color: #4D4D5C;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Roboto',Jost;
+}
+#qqq span{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    font-family:'Roboto',Jost;
+
+}
+#ooo{
+    position: absolute;
+    right:620px;
+    bottom: 130px;
+    color: #80DB66;
 }
