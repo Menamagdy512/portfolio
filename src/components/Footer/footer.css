@@ -78,3 +78,14 @@
     bottom: 130px;
     color: #80DB66;
 }
+@media(max-width:1246px){
+    #ooo{
+        right: 490px;
+    }
+  
+}
+@media(max-width: 1024px){
+    #ooo{
+        right: 380px;
+    }
+}

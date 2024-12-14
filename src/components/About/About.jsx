@@ -24,7 +24,7 @@ export default function About() {
         </div>
         <div className="about">
                 <h4>ABOUT ME</h4>
-                <h1>I Develop System that <br /> Works</h1>
+                <h1>I Develop System that Works</h1>
                 <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia dese
 runt mollit anim id est laboru doloremque laudantium, totaeaque ipsa quae
 ab illo inven tore veritatis et quasi architecto beatae vitae.
@@ -41,7 +41,7 @@ Oremque laudantium, totaeaque ipsa quae
     <div>
         <p>James Smith</p>
         <p>29 Years</p>
-        <p>System Engineer</p>
+        <p><span>SystemEngineer</span></p>
     </div>
     <div>
     <p>Phone</p>
@@ -55,7 +55,6 @@ Oremque laudantium, totaeaque ipsa quae
     </div>
 </div>
 <div className="sign">
-
 <p ><span>Bruce Wayne </span> Software Architect, Google Inc.</p>
 </div>
     </div>

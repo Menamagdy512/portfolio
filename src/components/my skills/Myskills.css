@@ -25,3 +25,27 @@
     line-height: 30px;
     margin-left: 50px;
 }
+@media(max-width:1246px){
+.imagess{
+    width: 100%;
+}
+.imagess img{
+    width:200px;
+}
+}
+@media (max-width:1024px){
+    .imagess{
+        width: 100%;
+    }
+    .imagess img{
+        width: 150px;
+    }
+    .skills p{
+        width: 500px;
+        height: 84px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 40px;
+    }
+}

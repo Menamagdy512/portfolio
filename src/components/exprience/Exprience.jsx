@@ -21,6 +21,7 @@ export default function Exprience() {
       <div className="myex">
         <div>
           <img src={Vector} alt="" />
+          <div className="ppp">
           <h2><span>Senior System Engineer</span></h2>
           <h5>
             eThemeStudio( 2018 - Running )
@@ -30,9 +31,12 @@ export default function Exprience() {
             veritatis et quasi architecto beatae et vitae ullam molesti quae
             quasi.
           </p>
+          </div>
         </div>
+
         <div>
           <img src={Vector} alt="" />
+          <div className="ppp">
           <h2>Data Architect</h2>
           <h5>
           Easy Computers ( 2015 - 2018 )
@@ -42,6 +46,7 @@ export default function Exprience() {
             veritatis et quasi architecto beatae et vitae ullam molesti quae
             quasi.
           </p>
+          </div>
         </div>
         <div>
           <img src={Vector} alt="" />

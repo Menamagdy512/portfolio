@@ -19,16 +19,17 @@ export default function Myskills() {
       </div>
       <div className="imagess">
        <div>
-        <img src={Group21} alt="" />
-        <img src={Group22} alt="" />
-         <img src={Group20} alt="" />
-        </div>
-        <div>
         <img src= {Group23} alt="" />
         <img src= {Group24} alt="" />
+        <img src={Group22} alt="" />
+        </div>
+        <div>
         <img src={Group25} alt="" />
+         <img src={Group20} alt="" />
+        <img src={Group21} alt="" />
         </div>
       </div>
     </div>
   );
 }
+

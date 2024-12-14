@@ -31,6 +31,14 @@
   margin-top: 10px;
   margin-left: 100px;
   }
-  #name{
-    writing-mode:vertical-lr;
+  @media(max-width:1246px){
+    .containar nav{
+      width:94.5%;
+    }
+  }
+
+  @media(max-width:1025px){
+    .containar nav{
+      width: 89.4%;
+    }
   }

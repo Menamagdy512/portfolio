@@ -1,6 +1,6 @@
 .box{
     width: 100%;
-    height: 100vh;
+    height: 700px;
     display: flex;
     background-color: #EFF6FA;
     
@@ -11,7 +11,6 @@
     position: relative;
     z-index: 1;
     animation: slideInOut 7s ease-out;
-  
 }
 .about{
     display: flex;
@@ -34,12 +33,13 @@
     line-height: 72px;
     color: #2E2E37;
     font-family: 'Roboto', Jost;
+    width: 90%;
 }
 .about p{
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    width: 100%;
+    width: 90%;
     color: #4D4D5C;
     font-family:'Roboto',Open Sans;
 }
@@ -68,6 +68,7 @@ text-transform: uppercase;
     font-weight: 400;
     margin-top: 100px;
     transform: translateX(300px);
+    width: 100%;
 }
 .im img{
     position: absolute;
@@ -84,7 +85,7 @@ text-transform: uppercase;
     animation: slideInOut 7s ease-out;
 
 }
-.bak{
+.bak img{
     position: absolute;
     left: 30px;
     top:105rem ;
@@ -95,17 +96,75 @@ text-transform: uppercase;
     0% {
         transform: translateX(-100%); /* خارج الشاشة من اليسار */
         opacity: 0; /* غير مرئية */
-      }
-      25% {
+        }
+    25% {
         transform: translateX(0); /* داخل الشاشة */
         opacity: 1; /* مرئية */
-      }
-      75% {
+        }
+        75% {
         transform: translateX(0); /* تظل في مكانها */
         opacity: 1; /* مرئية */
-      }
-      100% {
+        }
+        100% {
         transform: translateX(0); /* تخرج من الشاشة إلى اليمين */
         opacity: 1; 
-      }
+    }
+    }
+    @media (max-width:1246px){
+        .im img{
+            top:110rem;
+        }
+        .bor img{ 
+            bottom: -50rem;
+            left: 430px;
+        }
+        .bak img{
+            top:95rem;
+        }
+        .about h1{
+            width:700px;
+        }
+        .bigimg img{
+            width:400px ;
+        }
+        .about p{
+            width: 90%;
+        }
+        .info{
+            width: 89%;
+        }
+        .about .sign p {
+            margin-top:70px;
+            transform: translateX(200px);
+            
+        }
+    }
+    @media(max-width:1025px){
+        .bigimg{
+            margin: 100px 0 0 90px;
+            width: 50%;
+    }
+    .about{ 
+        margin-left: 80px;
+        width: 100%;
+    }
+    .about h1{
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 60px;
+        width: 100%;
+    }
+    .about .sign p{
+        margin-top:80px;
+        transform: translateX(200px);
+    }
+    .bor img{ 
+        bottom: -51rem;
+        left: 400px;
+    }
+    .about .sign p {
+        margin-top:60px;
+        transform: translateX(80px);
+        
+    }
     }

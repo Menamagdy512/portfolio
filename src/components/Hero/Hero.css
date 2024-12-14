@@ -52,9 +52,6 @@
   .Homepage{
     display: flex;
   }
-  .Homeimg{
-    overflow: hidden;
-  }
   .Homeimg img{
     width: 700px;
     display: flex;
@@ -96,4 +93,32 @@
   .decor4{
     position: absolute;
     top: 150px;
+  }
+
+  @media(max-width:1246px){
+    .Homeimg img{
+      top:100px;
+      width: 50%;
+    }
+  }
+  @media(max-width:1025px){
+    .Homeimg img{
+      top: 195px;
+    }
+    .decor1{
+      left: 200px;
+    }
+    .Homepage .content h3{
+      text-indent: -190px;
+    }
+    .Homepage .content h1{
+      font-size: 80px;
+    }
+    .Homepage .content p{
+      text-indent: 0px;
+    }
+    .Homepage .content button{
+    transform: translateX(-120px);
+      
+    }
   }

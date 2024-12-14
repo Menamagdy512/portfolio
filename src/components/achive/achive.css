@@ -35,7 +35,6 @@
         color: #2E2E37;
         margin-left: 60px;
         font-family:'Roboto',Jost;
-
 }
 .edu p{
     font-weight: 400;
@@ -49,6 +48,7 @@
     margin-top: 50px;
     width: 60%;
     text-align: center;
+    position: relative;
 }
 .myach img{
     background-color: #3C5B6F;
@@ -62,11 +62,10 @@
     margin:10px 0 ;
     font-weight: 400;
     font-size: 30px;
-    font-weight: 34px;
+    line-height: 34px;
     color: #2E2E37;
     transform: translateX(-100px);
     font-family:'Roboto',Jost;
-
 }
 .myach h5{
     color: #4D4D5C;
@@ -102,4 +101,57 @@ h2 span{
         transform: translateX(0); /* تخرج من الشاشة إلى اليمين */
         opacity: 1; 
       }
+    }
+    @media (max-width:1246px){
+        .achive .image img{
+            width: 550px;
+            right: 40px;
+        }
+        .myach img{
+            padding: 17px;
+        }
+        .myach h2{
+            transform: translateX(-30px);
+            font-size: 27px;
+            line-height:30px ;
+        }
+        .myach h5 {
+            transform: translateX(-100px);
+        }
+    }
+    @media (max-width: 1024px){
+        .achive .image img{
+            width: 450px;
+            height: 800px;
+        }
+        .edu h1{
+            font-weight: 300;
+            font-size: 50px;
+            line-height: 60px;
+        }
+        .edu p{
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            width: 400px;
+        }
+        .myach h2{
+            margin:5px 0 ;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 30px;
+            }
+            .myach img{
+            left: 35px;
+            
+        }
+        .myach h5{
+            margin-bottom: 10px;
+            transform: translateX(-90px);   
+        }
+        .myach p{
+            margin-bottom: 40px;
+            width: 50%;
+            margin-left: 120px;
+        }
     }
